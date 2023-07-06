@@ -1,0 +1,87 @@
+.application {
+  text-align: center;
+  background-color: #dbbcbc;
+  margin: 2rem auto; }
+
+.header {
+  color: #1b1d36;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center; }
+  .header .notice {
+    font-size: 19px;
+    color: #25273e; }
+    .header .notice .note {
+      color: red;
+      font-weight: 600; }
+
+.mainSection {
+  border: 1px solid #6d6868;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  margin: 1rem; }
+  .mainSection .detail {
+    position: absolute;
+    top: -36px;
+    background-color: #dbbcbc;
+    left: 40vw; }
+
+.form {
+  padding: 1.5rem 1rem; }
+  .form label {
+    display: block;
+    margin: 1rem auto;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1b1d36; }
+    .form label input {
+      outline: none;
+      border: 1px solid #6d6868;
+      padding: .3rem;
+      font-weight: 500;
+      margin-left: .2rem; }
+
+.checks {
+  padding: 1rem;
+  position: relative;
+  border: 1px solid #6d6868;
+  margin: 1rem; }
+  .checks .check_heading {
+    font-size: 19px;
+    color: #1b1d36;
+    position: absolute;
+    top: -30px;
+    background-color: #dbbcbc;
+    left: 40vw; }
+  .checks label {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+
+.essay {
+  padding: 1rem;
+  position: relative;
+  border: 1px solid #6d6868;
+  margin: 1rem; }
+  .essay .essayHeading {
+    font-size: 19px;
+    color: #1b1d36;
+    position: absolute;
+    top: -30px;
+    background-color: #dbbcbc;
+    left: 40vw; }
+
+.btn {
+  color: #fff;
+  background-color: #2c3bdc;
+  display: block;
+  margin: 1rem auto;
+  transition: all .3s;
+  border: none;
+  height: 35px;
+  border-radius: .3rem;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #2532be; }
+
+/*# sourceMappingURL=script.css.map */

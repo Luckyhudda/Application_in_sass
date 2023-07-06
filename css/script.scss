@@ -1,0 +1,119 @@
+$background_color: rgb(219, 188, 188);
+$button_color: rgb(44, 59, 220);
+$buttonHover_color:  rgb(37, 50, 190);
+$dark_color: rgb(27, 29, 54);
+$light_color: rgb(37, 39, 62);
+$border_color: rgb(109, 104, 104);
+
+
+
+.application{
+    text-align: center;
+    background-color: $background_color;
+    margin: 2rem auto;
+}
+
+.header{
+    color: $dark_color;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+
+    .notice{
+        font-size: 19px;
+        color: $light_color;
+
+        .note{
+            color: red;
+            font-weight: 600;
+        }
+    }
+}
+
+.mainSection{
+    border: 1px solid $border_color;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    margin: 1rem;
+
+     .detail{
+        position: absolute;
+        top: -36px;
+        background-color: $background_color;
+        left: 40vw;
+     }
+}
+
+.form{
+    padding: 1.5rem 1rem;
+
+    label{
+        display: block;
+        margin: 1rem auto;
+        font-weight: 600;
+        font-size: 1rem;
+        color: $dark_color;
+
+        input{
+            outline: none;
+            border: 1px solid $border_color;
+            padding: .3rem;
+            font-weight: 500;
+            margin-left: .2rem;
+        }
+    }
+}
+.checks{
+    padding: 1rem;
+    position: relative;
+    border: 1px solid $border_color;
+    margin: 1rem;
+
+    .check_heading{
+        font-size: 19px;
+            color: $dark_color;
+        position: absolute;
+        top: -30px;
+        background-color: $background_color;
+        left: 40vw;
+    }
+    
+    label{
+        display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+   
+}
+
+.essay{
+    padding: 1rem;
+        position: relative;
+        border: 1px solid $border_color;
+        margin: 1rem;
+
+        .essayHeading{
+            font-size: 19px;
+                color: $dark_color;
+                position: absolute;
+                top: -30px;
+                background-color: $background_color;
+                left: 40vw;
+        }
+}
+
+.btn{
+    color: #fff;
+    background-color: $button_color;
+    display: block;
+    margin: 1rem auto;
+    transition: all .3s;
+    border: none;
+    height: 35px;
+    border-radius: .3rem;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $buttonHover_color;
+    }
+}
